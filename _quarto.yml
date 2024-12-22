@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Visualization of General Insurance Data"
+  author: "Brian A. Fannin, ACAS, CSPA"
+  chapters:
+    - index.qmd
+    - 01_history.qmd
+    - 02_theory.qmd
+    - 03_claim_frequency.qmd
+    - 04_uncertainty.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
